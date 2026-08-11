@@ -1,0 +1,125 @@
+// Open positions, grouped for the Careers page. Requirements ported from the original job decks.
+
+const JOBS = [
+  {
+    group: 'Technical Positions',
+    intro: 'We’re hiring experienced engineers who are passionate about building reliable, scalable systems.',
+    roles: [
+      {
+        title: 'Team Lead – PHP',
+        exp: '5+ years',
+        pitch: 'Lead a team of PHP developers building enterprise web applications, APIs, and utility billing platforms.',
+        reqs: [
+          '5+ years’ professional development experience with Linux, Nginx, Apache, MySQL, PHP (object oriented), JavaScript, AJAX, JSON and XML.',
+          'Provide technical leadership for development teams.',
+          'Deep functional knowledge and hands-on design experience with web services (REST, SOAP).',
+          'Proficiency designing and building APIs using PHP; MVC framework experience — Symfony / Laravel.',
+          'Hands-on design and development skills in HTML5, CSS, SASS/LESS, and one JavaScript framework (Angular, React, Ember or Backbone).',
+          'Experience with Joomla, WordPress, Drupal, Magento; knowledge of caching types (Memcache, Redis, CDN) and scaling techniques.',
+          'Strong in MySQL and NoSQL databases; experience in eCommerce a plus.',
+          'Firm grasp of Git-based source control; familiarity with automated deployment strategies and software design patterns.',
+          'Good understanding of AWS, Google Cloud or Azure is a huge plus; basic knowledge of Docker and CI/CD tools (Jenkins, Travis).',
+          'Excellent verbal and written communication skills.',
+        ],
+      },
+      {
+        title: 'Technical Architect – PHP',
+        exp: '7+ years',
+        pitch: 'Define system architecture for large-scale PHP applications — distributed systems, microservices, and database design.',
+        reqs: [
+          '7+ years’ professional development experience with Linux, Nginx, Apache, MySQL, PHP (object oriented), JavaScript, AJAX, JSON and XML.',
+          'Provide technical leadership for development teams.',
+          'Deep functional knowledge and hands-on design experience with web services (REST, SOAP).',
+          'Proficiency designing and building APIs using PHP; MVC framework experience — Symfony / Laravel.',
+          'Demonstrated ability with HTML5/CSS, JavaScript (Angular/Node.js), JSON/XML; experience with Joomla, WordPress, Drupal, Magento.',
+          'Knowledge of caching types (Memcache, Redis, CDN) and experience with caching and scaling techniques.',
+          'Working knowledge of building Node or Python based applications.',
+          'Strong in MySQL and NoSQL databases; firm grasp of Git-based source control.',
+          'Familiarity with automated deployment strategies and software design patterns.',
+          'Good understanding of AWS, Google Cloud or Azure is a huge plus; basic knowledge of Docker, CI/CD tools (Jenkins, Travis), and CDNs like Akamai.',
+          'Excellent verbal and written communication skills.',
+        ],
+      },
+      {
+        title: 'Node.js Developer',
+        exp: '2–7 years',
+        pitch: 'Build real-time APIs, WebSocket services, and data pipeline integrations for IoT and utility platforms.',
+        reqs: [
+          '2 to 7 years of experience in server-side programming; 2+ years of real-time experience in Node.js.',
+          'Strong proficiency and excellent coding skills in Node.js, JavaScript, Python.',
+          'Experience with popular Node.js utilities and ORM libraries; NPM, Bower, Grunt/Gulp.',
+          'Working with NoSQL databases; experience with JSON, XML and Git.',
+          'Experience writing code that interacts with a large, complex backend through RESTful APIs.',
+          'Understanding of asynchronous programming, its quirks and workarounds.',
+          'Preferred prior experience with Redis, Hadoop, CircleCI, Express.js, MongoDB, Heroku, Kubernetes, Apache Kafka, Apache Spark.',
+          'Knowledge of DevOps work on AWS or Google Cloud is a huge plus; basic knowledge of Docker, CI/CD tools (Jenkins, Travis), and CDNs like Akamai.',
+          'Excellent verbal and written communication skills.',
+        ],
+      },
+      {
+        title: 'PHP Developer',
+        exp: '2–3 years',
+        pitch: 'Develop and maintain enterprise PHP applications including billing systems, consumer portals, and utility management platforms.',
+        reqs: [
+          '2–3 years of programming experience.',
+          'Professional development experience with Linux, Apache, Nginx, MySQL, PHP (object oriented), JavaScript, AJAX, JSON and XML.',
+          'Hands-on design and development skills in HTML5, CSS, SASS, LESS.',
+          'Expert-level object-oriented design and MVC implementation; at least one PHP MVC framework (CakePHP, CodeIgniter, Symfony or Zend).',
+          'Functional knowledge or hands-on design experience with web services (REST, SOAP).',
+          'Exposure to JavaScript libraries and frameworks — AngularJS, React.',
+          'Experience testing UI across multiple browsers; preferred experience with Joomla, WordPress, Drupal, Magento.',
+          'Knowledge of DevOps work on AWS, Azure or Google Cloud is a huge plus.',
+          'Exceptional problem-solving skills, analytical ability, and excellent verbal and written communication skills.',
+        ],
+      },
+      {
+        title: 'iOS – Senior Developer',
+        exp: '5+ years',
+        pitch: 'Build native iOS applications for utility field teams, consumer self-service, and enterprise mobile workflows.',
+        reqs: [
+          '5+ years’ professional development experience; extensive hands-on experience with Objective-C / Swift.',
+          'Strong knowledge of memory management and Auto Layout concepts.',
+          'Part of the development team of at least 3 apps currently live on the App Store.',
+          'Strong in object-oriented software design and design patterns.',
+          'Experience developing rich UI using Auto Layout, Size Classes, Storyboards and UI animations.',
+          'Strong logical, analytical and algorithm skills.',
+          'Unit-testing code for robustness, including edge cases, usability and general reliability.',
+          'Experience with AVFoundation / CoreAudio and CoreLocation frameworks.',
+          'Proficient in local storage — SQLite, Core Data, Realm.',
+        ],
+      },
+    ],
+  },
+  {
+    group: 'Growth & Sales',
+    intro: 'Help the engineers’ work find the enterprises that need it.',
+    roles: [
+      {
+        title: 'Social Media Lead',
+        exp: '6–8 years',
+        pitch: 'Own Nuozen’s social presence across LinkedIn, Twitter, and YouTube — content that attracts enterprise clients and top engineering talent.',
+        reqs: [
+          '6–8 years of experience in advertising, marketing, media, or startups.',
+          'Develop and implement marketing strategies for social media — blogging, profiles, regular posts, and community response.',
+          'Stay at the leading edge of industry trends to generate inbound leads, gain followers and build a positive brand image.',
+          'Key responsibility areas: strategy development and execution, content creation and management, research and competition study, analytics and reporting.',
+          'Required skills: content and copywriting, visual intelligence, social media tool management (Hootsuite, Tweetdeck), SEO/SEM knowledge, analytics and reporting.',
+          'Stand out with: a great campaign portfolio (awards earn added points), agency experience, experience across varying industries and clients, branding experience, and a go-getter attitude.',
+        ],
+      },
+      {
+        title: 'Business Development',
+        exp: '3+ years',
+        pitch: 'Build the enterprise pipeline — cloud, security, and outsourcing engagements from first call to signed scope.',
+        reqs: [
+          '3+ years in B2B sales or business development, ideally in IT services, cloud, or SaaS.',
+          'Comfortable owning the full cycle: prospecting, discovery calls, written proposals, and negotiation.',
+          'Able to talk credibly about hosting, security, and software delivery with technical stakeholders.',
+          'Disciplined pipeline and CRM hygiene; excellent verbal and written communication skills.',
+        ],
+      },
+    ],
+  },
+];
+
+export default JOBS;
